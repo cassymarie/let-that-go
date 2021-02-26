@@ -5,3 +5,4 @@ class ApplicationController < ActionController::API
       @current_user = User.find_by(id: session[:user_id])
     end
 end
+# comment
